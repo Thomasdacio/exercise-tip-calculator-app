@@ -64,6 +64,11 @@ main {
     border: 2px solid transparent;
 }
 
+.input-conta::-webkit-inner-spin-button,
+.input-pessoas::-webkit-inner-spin-button {
+    appearance: none; 
+}
+
 .input-conta:focus,
 .input-pessoas:focus,
 .porcentagens .valor-customizado:focus {
