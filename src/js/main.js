@@ -115,6 +115,8 @@ botaoReset.addEventListener("click", () => {
     porcentagensGorjeta.forEach((porcentagem) => {
         porcentagem.classList.remove("selecionado");
     })
+
+    atualizarCalculo();
 })
 
 
